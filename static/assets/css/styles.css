@@ -558,20 +558,20 @@ h1{
 
 /* ANIMATION */
 section .animate{
-    transition: 5s;
+    transition: 3s;
 }
 .sec-2.show-animate .animate{
-    transform: translateX(-40%);
+    transform: translateX(0);
 }
 .sec-2 .animate{
-	transform: translateX(0);
+	transform: translateX(-400%);
 }
 
 .sec-3.show-animate .animate{
-    transform: translateX(40%);
+    transform: translateX(0);
 }
 .sec-3 .animate{
-	transform: translateX(0);
+	transform: translateX(80%);
 }
 
 
@@ -630,7 +630,6 @@ section .animate{
 /*******************/
 .progress .progress-bar{
     background-color: #004B8D;
-    opacity: 0;
 }
 
 

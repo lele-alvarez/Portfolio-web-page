@@ -373,7 +373,7 @@ input[type='checkbox'] {
 /**********************/
 .navbar {
 	background-color: #24262a;
-	opacity: 0.8;
+	opacity: 0.7;
 	font-weight: 600;
 	font-size: 1.2rem;
 	line-height: 0.875rem;
@@ -521,7 +521,6 @@ input[type='checkbox'] {
 	font-size: 1.25rem;
 }
 
-
 /******************/
 /*     Header     */
 /******************/
@@ -558,7 +557,7 @@ h1{
 
 /* ANIMATION */
 section .animate{
-    transition: 3s;
+    transition: 2s;
 }
 .sec-2.show-animate .animate{
     transform: translateX(0);
@@ -630,6 +629,10 @@ section .animate{
 /*******************/
 .progress .progress-bar{
     background-color: #004B8D;
+}
+
+.upper{
+    margin-bottom: 2rem;
 }
 
 
@@ -873,7 +876,7 @@ section .animate{
 /*     Footer     */
 /******************/
 .footer {
-	padding-top: 6.25rem;
+	padding-top: 3.25rem;
 	padding-bottom: 2rem;
 	background-color: #24262a;
 	text-align: center;
@@ -896,12 +899,12 @@ section .animate{
 }
 
 .footer .fa-stack .fa-stack-2x {
-	color: #0b36a8;
+	color: #004b8d;
 	transition: all 0.2s ease;
 }
 
 .footer .fa-stack:hover .fa-stack-1x {
-	color: #0b36a8;
+	color: #004b8d;
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
@@ -1109,8 +1112,8 @@ a:hover.back-to-top {
 		width: 90%;
 	}
 
-	.navbar .social-icons {
-		margin-left: 0.5rem;
+	.navbar .social-link {
+		margin-right: 20rem;
 	}
 	
 	.navbar .fa-stack {

@@ -95,6 +95,9 @@ window.onscroll = () => {
     })
 }
 
+setTimeout(function () {
+    $('#alert').alert('close');
+}, 5000);
 /* skills animation */
 
 //let progress-bars = document.querySelectorAll('progress-bars');

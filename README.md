@@ -3,6 +3,8 @@
 Welcome to my web page! A portfolio that showcase some of my projects and information about my education, skills and experience 
 aquired through my jurney as a software developer. Also provides important links and a contact form.
 
+You can accsess from [here](https://portfolio-web-page.onrender.com)
+
 
 ## Deployment Details
 * **Production Environment:** The application is deployed on Render, and a WSGI server is set up with Gunicorn to run the live Python application. The production database used is PostgreSQL.

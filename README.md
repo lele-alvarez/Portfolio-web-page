@@ -7,7 +7,7 @@ You can accsess from [here](https://portfolio-web-page.onrender.com)
 
 
 ## Deployment Details
-* **Production Environment:** The application is deployed on Render, and a WSGI server is set up with Gunicorn to run the live Python application. The production database used is PostgreSQL.
+* **Production Environment:** The application is deployed on Render, and a WSGI server is set up with Gunicorn to run the live Python application.
 
 * **Development Environment:** Development and testing are done locally.
 
@@ -20,10 +20,10 @@ You can accsess from [here](https://portfolio-web-page.onrender.com)
 
 * **HTML and CSS:** HTML and CSS are used to structure and style the web pages.
 
-* **Bootstrap and Fontawsome:** Also user for styling and adding specific components like icons.
+* **Bootstrap and Fontawsome:** Also user for styling and adding specific components such as icons.
 
 * **Mailgun:** The contact form is linked to my Gmail account using the Mailgun platform API.
-  This allows me to avoid some issues between Render and SMTP services.
+  Not yet functioning due incompatibilities between Render and SMTP services.
 
 * **Flask Web Framework:** The application is developed using the Flask web framework.
   Also used as a starting point the following template: https://themewagon.github.io/mark/
@@ -37,6 +37,6 @@ You can accsess from [here](https://portfolio-web-page.onrender.com)
 * **Gunicorn:** To set up a Web Server Gateway Interface.
 
 Feel free to explore the website and enjoy my projects! If you have any questions or feedback it would be deeply appreciated. 
-You can contact me through the provided contact form or to my email.
+
 
 

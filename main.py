@@ -4,7 +4,7 @@ import requests
 
 app = Flask(__name__)
 
-PRIVATE_API_KEY = "01da7b252f54b585552aa3ba0a3a1510-73f745ed-58f1cbd3"
+PRIVATE_API_KEY = "PRIVATE_API_KEY"
 
 @app.route('/', methods=['GET', 'POST'])
 def home_page():
